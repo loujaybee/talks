@@ -1,17 +1,50 @@
-<!-- .slide: data-background="#ffffff" -->
-
+---
+title: "Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents"
+theme: "white"
+transition: "slide"
+navigationMode: "linear"
+header-includes: |
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap">
+  <style>
+  :root {
+    --gitpod-orange: #FF8A00;
+    --gitpod-orange-light: #FFB45B;
+    --gitpod-bg-light: #F5F4F3;
+  }
+  .reveal .slides {
+    background-color: var(--gitpod-bg-light);
+    font-family: 'PT Mono', monospace;
+  }
+  .reveal .title {
+    font-size: 1.2em;
+  }
+  .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    font-family: 'PT Mono', monospace;
+    text-transform: none;
+  }
+  .reveal h2 {
+    font-size: 1.6em;
+    color: var(--gitpod-orange);
+  }
+  .reveal h3 {
+    color: var(--gitpod-orange);
+  }
+  .reveal strong {
+    color: var(--gitpod-orange);
+  }
+  .gitpod-section {
+    background: linear-gradient(135deg, var(--gitpod-orange-light), var(--gitpod-orange));
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .reveal .slide-background {
+    background-color: var(--gitpod-bg-light);
+  }
+  </style>
 ---
 
-<!-- .slide: data-background="#f0f0f0" -->
-## Introduction - Hey
-
-- **Title**: Beyond Copilot - How Developer Tools Are Evolving from Editors to Agents
-- **Description**: The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users. 50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding. It's safe to say significant shifts are coming. But, where's the line between hype and reality?
-
----
-
-<!-- .slide: data-background="#ffffff" -->
-## Personalised Intro
+## Hey, I'm Lou
 
 - Platform Engineer
 - Back in DX for the 2nd year
@@ -20,7 +53,6 @@
 
 ---
 
-<!-- .slide: data-background="#f0f0f0" -->
 ## Times are Changing
 
 - Open with Cursor demo (Prompted? SDK with Devin?)
@@ -32,7 +64,6 @@
 
 ---
 
-<!-- .slide: data-background="#ffffff" -->
 ## Tools Overview
 
 - Gitpod
@@ -45,12 +76,16 @@
 
 ---
 
-<!-- .slide: data-background="#f0f0f0" -->
+## Cursor Demo
+
+<iframe data-src="https://www.youtube.com/embed/LR04bU_yV5k" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+
+---
+
 ## What is an Agent
 
 ---
 
-<!-- .slide: data-background="#ffffff" -->
 ## Agents vs Workflows
 
 1. LLMs
@@ -65,7 +100,6 @@
 
 ---
 
-<!-- .slide: data-background="#f0f0f0" -->
 ## You Must Get to the Aha Moment
 
 - Overcome your own skepticism
@@ -73,7 +107,6 @@
 
 ---
 
-<!-- .slide: data-background="#ffffff" -->
 ## What You Should Do
 
 1. Learn the tools
@@ -86,7 +119,6 @@
 
 ---
 
-<!-- .slide: data-background="#f0f0f0" -->
 ## Meta
 
 - Main font 
