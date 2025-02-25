@@ -1,0 +1,8 @@
+services:
+  server:
+    name: Python Server
+    description: Runs a Python server for development and watches for changes in presentation.md
+    triggeredBy:
+      - postDevcontainerStart
+    commands:
+      start: ./serve.sh
