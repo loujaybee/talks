@@ -3,7 +3,7 @@ theme: "white"
 transition: "slide"
 navigationMode: "linear"
 header-includes: |
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
   :root {
@@ -13,14 +13,14 @@ header-includes: |
   }
   .reveal .slides {
     background-color: var(--gitpod-bg-light);
-    font-family: 'PT Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.85em;
   }
   .reveal .title {
     font-size: 1.1em;
   }
   .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    font-family: 'PT Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     text-transform: none;
     margin-bottom: 0.5em;
   }
@@ -32,13 +32,13 @@ header-includes: |
     font-size: 1.2em;
     color: var(--gitpod-orange);
   }
-  .reveal strong {
-    color: var(--gitpod-orange);
-  }
   .reveal p, .reveal li {
     font-size: 0.9em;
     line-height: 1.3;
     margin-bottom: 0.3em;
+  }
+  .reveal strong, .reveal b {
+    font-weight: 700;
   }
   .gitpod-section {
     background: linear-gradient(135deg, var(--gitpod-orange-light), var(--gitpod-orange));
@@ -100,24 +100,31 @@ header-includes: |
   </style>
 ---
 
-## Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents
+## Beyond Copilot
 
-<img src="./images/agents.png" width="300">
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div><img src="./images/agents.png" width="50%"></div>
+  <div style="text-align: left;">How Developer Tools Are Evolving from **Editors** to **Agents**</div>
+</div>
 
 ---
 
-<h2>Hey, I'm <strong>Lou</strong></h2>
+<h2>Hey, I'm <strong>Lou</strong> 👋 🇮🇹 </h2>
 
 <div class="intro-grid">
   <img src="https://openupthecloud.com/wp-content/uploads/2020/10/lou.jpg" alt="Lou's profile" class="intro-image">
   
   <ul class="intro-list">
-    <li><i class="fas fa-laptop-code"></i>Platform Engineer</li>
-    <li><i class="fas fa-redo"></i>Back in DX for the 2nd year</li>
-    <li><i class="fas fa-bullhorn"></i>Product Manager / Marketer</li>
-    <li><i class="fas fa-dumbbell"></i>Weight Lifter</li>
+    <li><strong>Role</strong>&nbsp;Devtools GTM @ Gitpod</li>
+    <li><strong>Likes</strong>&nbsp;Weightlifting</li>
   </ul>
 </div>
+
+<div style="position: absolute; bottom: 20px; right: 20px; font-size: 0.8em; color: var(--gitpod-orange);">
+  <i class="fab fa-twitter"></i> @loujaybee
+</div>
+
+<!-- Swap for more personal image -->
 
 <!-- ---
 
@@ -132,9 +139,7 @@ header-includes: |
 
 ---
 
-## The Future here—it's just not evenly distributed
-
-Lorem
+## "The Future is here—it's just not evenly distributed" — William Gibson
 
 ---
 
@@ -144,30 +149,7 @@ Lorem
 
 ---
 
-## Current AI is underestimated
-
-"A country of geniuses in a datacenter"
-- Dario Amodei, CEO of Anthropic
-
-Most think of AI as a cute chatbot
-
-Can you leverage it? Can you compete?
-
----
-
-## What's holding you back?
-
-Lack of: 
-
-1. **Ambition** - Not asking AI to help with real work
-2. **Patience** - Insufficient patience and context provision
-3. **Imagination** - Imagine AI native versions of your product
-
-You cannot overtake fifteen cars in sunny weather. But you can when it's raining
-
-<!-- ---
-
-## Tools Overview
+## Inventory of tools
 
 - Gitpod
 - Cursor
@@ -175,14 +157,43 @@ You cannot overtake fifteen cars in sunny weather. But you can when it's raining
 - Devin
 - Aider
 - Cline
-- Sourcegraph
 
 ---
 
+## Current AI is underestimated
 
-## What is an Agent
+"A country of geniuses in a datacenter"<br/>
+- Dario Amodei, CEO of Anthropic
+
+<!-- 
+
+- Most think of AI as a cute chatbot
+- Can you leverage it? Can you compete? 
+-->
 
 ---
+
+## What's holding you back?
+
+<div style="text-align: left">
+1. **Ambition** - Not asking AI to help with real work
+2. **Patience** - Insufficient patience and context
+3. **Imagination** - AI versions of your workflows
+</div>
+
+---
+
+## Agents vs Assistants
+
+An agent is an AI application consisting of a model equipped with instructions that guide its behavior, access to tools that extend its capabilities, encapsulated in a runtime with a dynamic lifecycle.
+
+Agent =
+* Model
+* Instructions
+* Tools
+* Runtime
+
+<!-- ---
 
 ## Agents vs Workflows
 
@@ -196,7 +207,6 @@ You cannot overtake fifteen cars in sunny weather. But you can when it's raining
 4. MCP (Anthropic)
    - Demo with GitHub and Asana
 
----
 
 ## You Must Get to the Aha Moment
 
@@ -213,9 +223,8 @@ You cannot overtake fifteen cars in sunny weather. But you can when it's raining
    - Read books, learn art, strategy
 3. Build a team of agents
    - Codify flows into agents
-   - Trigger agents
+   - Trigger agents -->
 
---- -->
 
 ## The end
 
