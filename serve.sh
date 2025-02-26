@@ -19,6 +19,11 @@ echo "Copying reveal.js to output directory..."
 mkdir -p "$OUTPUT_DIR/reveal.js"
 cp -r /opt/reveal.js/* "$OUTPUT_DIR/reveal.js/"
 
+# Copy images directory to the output directory
+echo "Copying images to output directory..."
+mkdir -p "$OUTPUT_DIR/images"
+cp -r "dx-day-2025/images/"* "$OUTPUT_DIR/images/" 2>/dev/null || true
+
 # Function to convert markdown to HTML
 convert_markdown() {
     echo "Converting markdown to HTML..."
